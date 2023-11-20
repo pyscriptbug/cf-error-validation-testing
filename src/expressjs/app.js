@@ -1,4 +1,5 @@
 import express from 'express'
+import bodyParser from 'body-parser'
 
 /**
  * @type {Express}
@@ -7,6 +8,8 @@ let app
 
 export function initExpress() {
     app = express()
+
+    app.use(bodyParser.json())
 
     return app
 }
