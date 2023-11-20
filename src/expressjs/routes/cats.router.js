@@ -19,7 +19,7 @@ catsRouter.get("/:id", (req, res) => {
 catsRouter.post("/", (req, res) => {
     const catPayload = req.body
 
-    // throw new Error("Elephats not allowed! 🐘❌")
+    // throw new Error("Elephants are not allowed! 🐘❌")
     //TODO: ¿Qué pasa si el payload (los datos a agregar) no fue enviado?
 
     const id = uuid.v4()
