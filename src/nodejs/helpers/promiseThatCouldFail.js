@@ -1,5 +1,5 @@
 // Declara función que retorna una Promesa y que puede fallar
-export function promisedFunction(shouldFail = false) {
+export function promiseThatCouldFail(shouldFail = false) {
 
     // El código de esta función se ejecutará de forma asíncrona
     // La función devolverá una Promesa
