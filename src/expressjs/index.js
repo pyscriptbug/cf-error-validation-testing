@@ -8,7 +8,7 @@ async function main() {
     registerRouter("/cats", catsRouter);
     registerRouter("/", rootRouter);
 
-    startServer();
+    await startServer();
 }
 
 main().catch((e) => {

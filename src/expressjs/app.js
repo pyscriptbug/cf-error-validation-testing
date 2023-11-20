@@ -1,4 +1,4 @@
-import express, { json } from 'express'
+import express from 'express'
 
 /**
  * @type {Express}
@@ -7,8 +7,6 @@ let app
 
 export function initExpress() {
     app = express()
-
-    app.use(json)
 
     return app
 }
