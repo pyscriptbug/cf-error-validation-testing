@@ -1,7 +1,7 @@
 import express from 'express'
 
-export const usersRouter = express.Router();
+export const rootRouter = express.Router();
 
-usersRouter.get("/", (req, res) => {
+rootRouter.get("/", (req, res) => {
     res.status(200).send({ message: "Soy una aplicación genial 😎" })
 })
