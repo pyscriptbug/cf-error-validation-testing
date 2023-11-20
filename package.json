@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "description": "Clase #13 de Javascript en el Backend. Manejo de errores, validación de datos y unit testing",
   "scripts": {
-    "exceptions:uncaught": "nodemon nodejs/exceptions/uncaught.js",
-    "exceptions:unhandled": "nodemon nodejs/exceptions/unhandled.js",
+    "exceptions:live": "nodemon nodejs/exceptions/liveExample.js",
     "exceptions:sync": "nodemon nodejs/exceptions/syncEntrypoint.js",
     "exceptions:async": "nodemon nodejs/exceptions/asyncEntrypoint.js",
     "test": "jest"

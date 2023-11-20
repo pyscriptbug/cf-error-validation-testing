@@ -1,6 +1,6 @@
 // Declara la función principal o punto de acceso a nuestra aplicación
 function main() {
-
+    
 }
 
 

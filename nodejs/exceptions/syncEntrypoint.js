@@ -1,8 +1,12 @@
-import { syncFunction } from "./helpers/syncFunction.js"
+import { functionThatCouldFail } from "./helpers/functionThatCouldFail.js"
 
 // Declara la función principal o punto de acceso a nuestra aplicación
 function main() {
-    syncFunction()
+    console.log("Comienza ejecución síncrona! ⏲️")
+
+    functionThatCouldFail()
+
+    console.log("Función completada! 🚀")
 }
 
 

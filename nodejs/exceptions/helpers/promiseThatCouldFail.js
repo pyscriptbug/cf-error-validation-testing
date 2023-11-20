@@ -1,5 +1,5 @@
-// Declara la función principal o punto de acceso
-export function promisedFunction() {
+// Declara función que retorna una Promesa y que puede fallar
+export function promisedFunction(shouldFail = false) {
 
     // El código de esta función se ejecutará de forma asíncrona
     // La función devolverá una Promesa
@@ -8,12 +8,17 @@ export function promisedFunction() {
         // Simula código asíncrono agregando 3 segundos de retardo en la ejecución
         setTimeout(() => {
             console.log("Hola, soy una línea de código que se ejecuta de manera asíncrona 😴")
-            //TODO: Simular falla rechazando la promesa
 
-            //TODO: Simular falla arrojando un error
+            if (shouldFail) {
+                //TODO: Simular falla arrojando un error en lugar de rechazar la promesa
 
-            // La promesa resuelve a `true` una vez terminado el retardo de 3 segundos
-            resolve(true)
+                reject()
+            } else {
+
+                // Resuelve la promesa una vez terminado el retardo de 3 segundos
+                resolve()
+            }
+
         }, 3000 //ms
         )
     })
