@@ -1,0 +1,26 @@
+{
+  "name": "cf-error-validation-testing",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Clase #13 de Javascript en el Backend. Manejo de errores, validación de datos y unit testing",
+  "scripts": {
+    "exceptions:uncaught": "nodemon nodejs/exceptions/uncaught.js",
+    "exceptions:unhandled": "nodemon nodejs/exceptions/unhandled.js",
+    "exceptions:sync": "nodemon nodejs/exceptions/syncEntrypoint.js",
+    "exceptions:async": "nodemon nodejs/exceptions/asyncEntrypoint.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyscriptbug/cf-error-validation-testing.git"
+  },
+  "author": "Catriel Guillen <catrielguillen@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pyscriptbug/cf-error-validation-testing/issues"
+  },
+  "homepage": "https://github.com/pyscriptbug/cf-error-validation-testing#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
