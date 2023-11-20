@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "description": "Clase #13 de Javascript en el Backend. Manejo de errores, validación de datos y unit testing",
   "scripts": {
-    "exceptions:live": "nodemon nodejs/exceptions/liveExample.js",
-    "exceptions:sync": "nodemon nodejs/exceptions/syncEntrypoint.js",
-    "exceptions:async": "nodemon nodejs/exceptions/asyncEntrypoint.js",
+    "live": "nodemon nodejs/liveExample.js",
+    "sync": "nodemon nodejs/syncEntrypoint.js",
+    "async": "nodemon nodejs/asyncEntrypoint.js",
+    "express": "nodemon expressjs",
     "test": "jest"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/pyscriptbug/cf-error-validation-testing#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^3.0.1"
   }
 }
