@@ -1,0 +1,160 @@
+{
+    "gastos": [
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Comida rápida",
+            "monto": 12.50
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Entrada al cine",
+            "monto": 10.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Consulta médica",
+            "monto": 50.75
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Supermercado",
+            "monto": 35.25
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Concierto",
+            "monto": 25.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Medicamentos",
+            "monto": 15.50
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Restaurante",
+            "monto": 45.75
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Parque de diversiones",
+            "monto": 30.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Exámenes médicos",
+            "monto": 80.25
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Desayuno",
+            "monto": 8.50
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Teatro",
+            "monto": 20.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Seguro médico",
+            "monto": 60.00
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Cena",
+            "monto": 30.75
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Museo",
+            "monto": 15.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Farmacia",
+            "monto": 12.25
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Almuerzo",
+            "monto": 14.50
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Zoológico",
+            "monto": 18.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Terapia",
+            "monto": 40.50
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Merienda",
+            "monto": 5.75
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Parque acuático",
+            "monto": 22.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Vacunas",
+            "monto": 30.25
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Café",
+            "monto": 3.50
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Bowling",
+            "monto": 12.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Rehabilitación",
+            "monto": 75.00
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Desayuno",
+            "monto": 8.50
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Parque temático",
+            "monto": 40.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Consultas especializadas",
+            "monto": 55.25
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Cena",
+            "monto": 30.75
+        },
+        {
+            "tipo": "diversion",
+            "descripcion": "Concierto",
+            "monto": 25.00
+        },
+        {
+            "tipo": "salud",
+            "descripcion": "Medicamentos",
+            "monto": 15.50
+        },
+        {
+            "tipo": "alimentacion",
+            "descripcion": "Restaurante",
+            "monto": 45.75
+        }
+    ],
+    "numeroCuotas": 9
+}
