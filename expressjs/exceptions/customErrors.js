@@ -1,5 +1,5 @@
 import { errorCodes } from "./errorCodes.js";
-import { errorMap } from "./errorMessages.js";
+import { errorMap } from "./errorMap.js";
 
 // Declara una nueva clase llamada `CustomError` que hereda las propiedades de la clase predefinida `Error`
 export class CustomError extends Error {

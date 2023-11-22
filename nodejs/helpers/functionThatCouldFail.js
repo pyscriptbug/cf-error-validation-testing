@@ -4,6 +4,11 @@ export function functionThatCouldFail(shouldFail = false) {
 
     if (shouldFail) {
         // Arroja el error explícito en la aplicación
+
+        // ✅ Forma correcta de arrojar un error
         throw new Error("Soy una función rota 💔")
+
+        // ❌ No tiene stacktrace
+        // throw "Soy una función rota 💔"
     }
 }

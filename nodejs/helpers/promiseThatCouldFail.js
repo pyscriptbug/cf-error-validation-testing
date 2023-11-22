@@ -11,8 +11,9 @@ export function promiseThatCouldFail(shouldFail = false) {
 
             if (shouldFail) {
                 //TODO: Simular falla arrojando un error en lugar de rechazar la promesa
+                // throw new Error("Soy una promesa rota 💔")
 
-                reject()
+                reject("Soy una promesa rota 💔")
             } else {
 
                 // Resuelve la promesa una vez terminado el retardo de 3 segundos

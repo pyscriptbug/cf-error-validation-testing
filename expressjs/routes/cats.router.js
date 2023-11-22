@@ -1,9 +1,15 @@
 import express from 'express'
 import * as uuid from 'uuid'
+import { BarkingKittenError, ExplodingKittenError, ImplodingKittenError } from '../exceptions/customErrors.js'
 
 export const catsRouter = express.Router();
 
-catsRouter.get("/", (_, res) => {
+catsRouter.get("/", (_, res, next) => {
+    // const error = new ImplodingKittenError()
+    // const error = new ExplodingKittenError()
+    const error = new BarkingKittenError()
+    next(error)
+
     res.send({ data: cats })
 })
 
